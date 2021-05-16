@@ -1,2 +1,2 @@
 # poogle
-Poogle is a shit search engine not associated with Google.
+Poogle is a shit search engine totally not associated with Google.
