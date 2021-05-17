@@ -1,22 +1,375 @@
-<html><head>
+<html>
+    <head>
+        <title>Poogle Search</title>
+        <style>
+            div,td,.n a,.n a:visited {
+                color: #000
+            }
 
+            .ts td,.tc {
+                padding: 0
+            }
 
+            .ts,.tb {
+                border-collapse: collapse
+            }
 
+            .ti {
+                display: inline
+            }
 
+            .ti {
+                display: inline-table
+            }
 
-    <title>Poogle Search</title>
-<style>div,td,.n a,.n a:visited{color:#000}.ts td,.tc{padding:0}.ts,.tb{border-collapse:collapse}.ti{display:inline}.ti{display:inline-table}.hd{position:absolute;width:1px;height:1px;top:-1000em;overflow:hidden}.f{color:#666}.flc,a.fl{color:#77c}a,.w,.q:visited,.q:active,.q,.b a,.b a:visited{color:#00c}a:visited{color:#551a8b}a:active{color:red}.t{background:#d5ddf3;color:#000;padding:5px 1px 4px}.bb{border-bottom:1px solid #36c}.bt{border-top:1px solid #36c}.j{width:34em}.h{color:#36c}.i{color:#a90a08}.a{color:green}.z{display:none}div.n{margin-top:1ex}.n a,.n .i{font-size:10pt}.n .i,.b a{font-weight:bold}.b a{font-size:12pt}.std{font-size:82%}.xsm{font-size:67%}.ch{cursor:pointer;cursor:hand}.ta{padding:3px 3px 3px 5px}#tpa2,#tpa3{padding-top:9px}#gbar{height:22px;padding-left:2px}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}#gbi,#gbs{background:#fff;left:0;position:absolute;top:24px;visibility:hidden;z-index:1000}#gbi{border:1px solid;border-color:#c9d7f1 #36c #36c #a2bae7;z-index:1001}#guser{padding-bottom:7px !important}#gbar,#guser{font-size:13px;padding-top:1px !important}@media all{.gb1,.gb3{height:22px;margin-right:.73em;vertical-align:top}#gbar{float:left}}.gb2{display:block;padding:.2em .5em}a.gb1,a.gb2,a.gb3{color:#00c !important}.gb2,.gb3{text-decoration:none}a.gb2:hover{background:#36c;color:#fff !important}.e{margin:.75em 0}.sm{display:block;margin:0;margin-left:40px}.slk td{padding-top:5px;padding-left:40px;vertical-align:top;font-size:84%}.slk div{text-indent:-10px;padding-left:10px}em{font-weight:bold;font-style:normal}body,td,div,.p,a{font-family:arial,sans-serif}.g{margin:1em 0}#sd{font-size:84%;font-weight:bold}#ap{font-size:64%}</style>
-</head><body bgcolor="#ffffff" topmargin="3" marginheight="3"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+            .hd {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                top: -1000em;
+                overflow: hidden
+            }
 
-<script>__wm.rw(0);</script>
+            .f {
+                color: #666
+            }
 
+            .flc,a.fl {
+                color: #77c
+            }
 
-<div id="gbar"><nobr><b class="gb1">Web</b> <a href="http://www.bitview.net" class="gb1">Videos</a>    <a href="#poopmail" class="gb1">Poopmail</a> <div id="gbi"> <a href="http://web.archive.org/web/20090210132119/http://video.google.com/videosearch?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wv" onclick="gbar.qs(this)" class="gb2">Video</a> <a href="http://web.archive.org/web/20090210132119/http://groups.google.com/groups?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wg" onclick="gbar.qs(this)" class="gb2">Groups</a> <a href="http://web.archive.org/web/20090210132119/http://books.google.com/books?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wp" onclick="gbar.qs(this)" class="gb2">Books</a> <a href="http://web.archive.org/web/20090210132119/http://scholar.google.com/scholar?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=ws" onclick="gbar.qs(this)" class="gb2">Scholar</a> <a href="http://web.archive.org/web/20090210132119/http://finance.google.com/finance?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=we" onclick="gbar.qs(this)" class="gb2">Finance</a> <a href="http://web.archive.org/web/20090210132119/http://blogsearch.google.com/blogsearch?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wb" onclick="gbar.qs(this)" class="gb2">Blogs</a> <div class="gb2"><div class="gbd"></div></div> <a href="http://web.archive.org/web/20090210132119/http://www.youtube.com/results?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=w1" onclick="gbar.qs(this)" class="gb2">YouTube</a> <a href="http://web.archive.org/web/20090210132119/http://www.google.com/calendar/render?um=1&amp;hl=en&amp;tab=wc" class="gb2">Calendar</a> <a href="http://web.archive.org/web/20090210132119/http://picasaweb.google.com/lh/view?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wq" onclick="gbar.qs(this)" class="gb2">Photos</a> <a href="http://web.archive.org/web/20090210132119/http://docs.google.com/?um=1&amp;hl=en&amp;tab=wo" class="gb2">Documents</a> <a href="http://web.archive.org/web/20090210132119/http://www.google.com/reader/view/?um=1&amp;hl=en&amp;tab=wy" class="gb2">Reader</a> <a href="http://web.archive.org/web/20090210132119/http://sites.google.com/?um=1&amp;hl=en&amp;tab=w3" class="gb2">Sites</a> <div class="gb2"><div class="gbd"></div></div> <a href="http://web.archive.org/web/20090210132119/http://www.google.com/intl/en/options/" class="gb2">even more »</a></div> </nobr></div><div class="gbh" style="left:0"></div><div class="gbh" style="right:0"></div><table class="tb" style="clear:left" width="100%"><tbody><tr><form name="gs" method="GET" action="/web/20090210132119/https://www.google.com/search"></form><td class="tc" valign="top"><a href="/poogle" title="Go to Poogle Home"><img src="https://github.com/thatchromeosuser/poogle/blob/main/poogle-logo-default.png?raw=true" width="150" height="55" alt="Google" border="0" vspace="12"></a></td><td style="padding:0 0 7px;padding-left:8px" valign="top" width="100%"><table class="tb" style="margin-top:25px"><tbody><tr><td class="tc" nowrap=""><input type="hidden" name="site" value="404"><input type="hidden" name="hl" value="en"><input type="hidden" name="ie" value="ISO-8859-1"><input type="text" name="q" size="41" maxlength="2048" value="" title="Search"> <input type="submit" name="btnG" value="Search"></td><td class="tc" nowrap="" width="100%"><span id="ap">&nbsp;&nbsp;<a href="/web/20090210132119/https://www.google.com/advanced_search?hl=en&amp;ie=UTF-8">Advanced Search</a><br>&nbsp; <a href="/web/20090210132119/https://www.google.com/preferences?hl=en&amp;output=search&amp;ie=UTF-8">Preferences</a></span></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td bgcolor="#3366cc"><img width="1" height="1" alt=""></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#d5ddf3"><tbody><tr><td nowrap=""><font size="+1">&nbsp;<b>Page Not Found&nbsp;</b></font></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="j"><br><img src="http://web.archive.org/web/20090210132119im_/https://www.google.com/images/yellow_warning.gif" alt="" height="14" width="14">This page does not exist.<br><br></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="j"><ul><li>Yes, I know searching is literally the purpose of a search engine, We are working on it.</li></ul></td></tr></tbody></table>
+            a,.w,.q:visited,.q:active,.q,.b a,.b a:visited {
+                color: #00c
+            }
 
-<div id="results">
-    <script async src="https://cse.google.com/cse.js?cx=3eeb100895446dcac"></script>
-<div class="gcse-searchresults-only"></div>
-</div>
+            a:visited {
+                color: #551a8b
+            }
 
+            a:active {
+                color: red
+            }
 
-</body></html>
+            .t {
+                background: #d5ddf3;
+                color: #000;
+                padding: 5px 1px 4px
+            }
+
+            .bb {
+                border-bottom: 1px solid #36c
+            }
+
+            .bt {
+                border-top: 1px solid #36c
+            }
+
+            .j {
+                width: 34em
+            }
+
+            .h {
+                color: #36c
+            }
+
+            .i {
+                color: #a90a08
+            }
+
+            .a {
+                color: green
+            }
+
+            .z {
+                display: none
+            }
+
+            div.n {
+                margin-top: 1ex
+            }
+
+            .n a,.n .i {
+                font-size: 10pt
+            }
+
+            .n .i,.b a {
+                font-weight: bold
+            }
+
+            .b a {
+                font-size: 12pt
+            }
+
+            .std {
+                font-size: 82%
+            }
+
+            .xsm {
+                font-size: 67%
+            }
+
+            .ch {
+                cursor: pointer;
+                cursor: hand
+            }
+
+            .ta {
+                padding: 3px 3px 3px 5px
+            }
+
+            #tpa2,#tpa3 {
+                padding-top: 9px
+            }
+
+            #gbar {
+                height: 22px;
+                padding-left: 2px
+            }
+
+            .gbh,.gbd {
+                border-top: 1px solid #c9d7f1;
+                font-size: 1px
+            }
+
+            .gbh {
+                height: 0;
+                position: absolute;
+                top: 24px;
+                width: 100%
+            }
+
+            #gbi,#gbs {
+                background: #fff;
+                left: 0;
+                position: absolute;
+                top: 24px;
+                visibility: hidden;
+                z-index: 1000
+            }
+
+            #gbi {
+                border: 1px solid;
+                border-color: #c9d7f1 #36c #36c #a2bae7;
+                z-index: 1001
+            }
+
+            #guser {
+                padding-bottom: 7px !important
+            }
+
+            #gbar,#guser {
+                font-size: 13px;
+                padding-top: 1px !important
+            }
+
+            @media all {
+                .gb1,.gb3 {
+                    height: 22px;
+                    margin-right: .73em;
+                    vertical-align: top
+                }
+
+                #gbar {
+                    float: left
+                }
+            }
+
+            .gb2 {
+                display: block;
+                padding: .2em .5em
+            }
+
+            a.gb1,a.gb2,a.gb3 {
+                color: #00c !important
+            }
+
+            .gb2,.gb3 {
+                text-decoration: none
+            }
+
+            a.gb2:hover {
+                background: #36c;
+                color: #fff !important
+            }
+
+            .e {
+                margin: .75em 0
+            }
+
+            .sm {
+                display: block;
+                margin: 0;
+                margin-left: 40px
+            }
+
+            .slk td {
+                padding-top: 5px;
+                padding-left: 40px;
+                vertical-align: top;
+                font-size: 84%
+            }
+
+            .slk div {
+                text-indent: -10px;
+                padding-left: 10px
+            }
+
+            em {
+                font-weight: bold;
+                font-style: normal
+            }
+
+            body,td,div,.p,a {
+                font-family: arial,sans-serif
+            }
+
+            .g {
+                margin: 1em 0
+            }
+
+            #sd {
+                font-size: 84%;
+                font-weight: bold
+            }
+
+            #ap {
+                font-size: 64%
+            }
+        </style>
+    </head>
+    <body bgcolor="#ffffff" topmargin="3" marginheight="3">
+        <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+        <script>
+            __wm.rw(0);
+        </script>
+        <div id="gbar">
+            <nobr>
+                <b class="gb1">Web</b>
+                <a href="http://www.bitview.net" class="gb1">Videos</a>
+                <a href="https://thatchromeosuser.github.io/poogle/poopmail" class="gb1">Poopmail</a>
+                <div id="gbi">
+                    <a href="http://web.archive.org/web/20090210132119/http://video.google.com/videosearch?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wv" onclick="gbar.qs(this)" class="gb2">Video</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://groups.google.com/groups?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wg" onclick="gbar.qs(this)" class="gb2">Groups</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://books.google.com/books?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wp" onclick="gbar.qs(this)" class="gb2">Books</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://scholar.google.com/scholar?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=ws" onclick="gbar.qs(this)" class="gb2">Scholar</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://finance.google.com/finance?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=we" onclick="gbar.qs(this)" class="gb2">Finance</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://blogsearch.google.com/blogsearch?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wb" onclick="gbar.qs(this)" class="gb2">Blogs</a>
+                    <div class="gb2">
+                        <div class="gbd"></div>
+                    </div>
+                    <a href="http://web.archive.org/web/20090210132119/http://www.youtube.com/results?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=w1" onclick="gbar.qs(this)" class="gb2">YouTube</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://www.google.com/calendar/render?um=1&amp;hl=en&amp;tab=wc" class="gb2">Calendar</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://picasaweb.google.com/lh/view?um=1&amp;ie=UTF-8&amp;sa=N&amp;hl=en&amp;tab=wq" onclick="gbar.qs(this)" class="gb2">Photos</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://docs.google.com/?um=1&amp;hl=en&amp;tab=wo" class="gb2">Documents</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://www.google.com/reader/view/?um=1&amp;hl=en&amp;tab=wy" class="gb2">Reader</a>
+                    <a href="http://web.archive.org/web/20090210132119/http://sites.google.com/?um=1&amp;hl=en&amp;tab=w3" class="gb2">Sites</a>
+                    <div class="gb2">
+                        <div class="gbd"></div>
+                    </div>
+                    <a href="http://web.archive.org/web/20090210132119/http://www.google.com/intl/en/options/" class="gb2">even more »</a>
+                </div>
+            </nobr>
+        </div>
+        <div class="gbh" style="left:0"></div>
+        <div class="gbh" style="right:0"></div>
+        <table class="tb" style="clear:left" width="100%">
+            <tbody>
+                <tr>
+                    <form name="gs" method="GET" action="search.html"></form>
+                    <td class="tc" valign="top">
+                        <a href="/index.html" title="Go to Poogle Home">
+                            <img src="poogle-logo-default.png" width="150" height="55" alt="Google" border="0" vspace="12">
+                        </a>
+                    </td>
+                    <td style="padding:0 0 7px;padding-left:8px" valign="top" width="100%">
+                        <table class="tb" style="margin-top:25px">
+                            <tbody>
+                                <tr>
+                                    <td class="tc" nowrap="">
+                                        <input type="hidden" name="site" value="404">
+                                        <input type="hidden" name="hl" value="en">
+                                        <input type="hidden" name="ie" value="ISO-8859-1">
+                                        <input type="text" name="q" size="41" maxlength="2048" value="" title="Search">
+                                        <script src="search.js"></script>
+                                        <input type="submit" name="btnG" value="Search">
+                                    </td>
+                                    <td class="tc" nowrap="" width="100%">
+                                        <span id="ap">
+                                            &nbsp;&nbsp;<a href="/web/20090210132119/https://www.google.com/advanced_search?hl=en&amp;ie=UTF-8">Advanced Search</a>
+                                            <br>
+                                            &nbsp;<a href="/web/20090210132119/https://www.google.com/preferences?hl=en&amp;output=search&amp;ie=UTF-8">Preferences</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+                <tr>
+                    <td bgcolor="#3366cc">
+                        <img width="1" height="1" alt="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="j">
+                        <ul>
+                            <div id="results">
+                                <script async src="https://cse.google.com/cse.js?cx=3eeb100895446dcac"></script>
+                                <div class="gcse-searchresults-only"></div>
+                            </div>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Code injected by live-server -->
+        <script type="text/javascript">
+            // <![CDATA[  <-- For SVG support
+            if ('WebSocket'in window) {
+                (function() {
+                    function refreshCSS() {
+                        var sheets = [].slice.call(document.getElementsByTagName("link"));
+                        var head = document.getElementsByTagName("head")[0];
+                        for (var i = 0; i < sheets.length; ++i) {
+                            var elem = sheets[i];
+                            var parent = elem.parentElement || head;
+                            parent.removeChild(elem);
+                            var rel = elem.rel;
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                            }
+                            parent.appendChild(elem);
+                        }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + '/ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function(msg) {
+                        if (msg.data == 'reload')
+                            window.location.reload();
+                        else if (msg.data == 'refreshcss')
+                            refreshCSS();
+                    }
+                    ;
+                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                        console.log('Live reload enabled.');
+                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                    }
+                }
+                )();
+            } else {
+                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+            }
+            // ]]>
+        </script>
+    </body>
+</html>
