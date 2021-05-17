@@ -17,3 +17,7 @@ document.getElementsByName("q").valueOf()[0].addEventListener("keyup", function(
         document.location.href = 'search.html' + "?q=" + document.getElementsByName("q").valueOf()[0].value
     }
 });
+
+document.getElementsByName("btnG")[0].onclick = function() {
+    document.location.href = 'search.html' + "?q=" + document.getElementsByName("q").valueOf()[0].value
+}
